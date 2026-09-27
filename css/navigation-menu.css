@@ -366,4 +366,12 @@
 	.ow-navigation .ddl-active > .ddl-switch:before {
 		content: "\f106";
 	}	
+	/* Canh icon ngoi nha len bang dung do cao voi chu menu */
 } 
+.menu-block .container > span {
+    line-height: 0x !important;
+    padding-top: -20px !important;
+    margin-top: -20px !important;
+    display: inline-block;
+    float: left;
+}
