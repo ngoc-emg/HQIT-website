@@ -375,3 +375,44 @@
     display: inline-block;
     float: left;
 }
+/* --- FOOTER ABOUT WIDGET --- */
+.about-widget .about-desc {
+    margin-bottom: 15px;
+    line-height: 2;
+    text-align: justify;
+	font-family: 'Roboto', Arial, sans-serif !important;
+}
+
+.about-widget .founder-quote {
+    padding: 8px 12px;
+    margin: 0 0 15px;
+    font-size: 13px;
+    border-left: 3px solid #ff5722;
+    background: rgba(255, 255, 255, 0.05);
+    font-style: italic;
+    color: #ddd;
+}
+
+.about-widget .founder-name {
+    display: block;
+    font-weight: 700;
+    color: #ff5722;
+    font-style: normal;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.about-widget .founder-name span {
+    font-weight: 400;
+    color: #aaa;
+}
+
+.about-widget .about-readmore {
+    color: #ff5722;
+    font-weight: 600;
+}
+
+.about-widget .about-readmore:hover {
+    color: #fff;
+    text-decoration: underline;
+}
