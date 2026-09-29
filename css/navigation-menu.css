@@ -375,14 +375,3 @@
     display: inline-block;
     float: left;
 }
-/* Thu hẹp khoảng cách giữa icon bóng đèn và chữ HQIT */
-.logo-block img, 
-.site-logo img {
-    margin-right: 0px !important; /* Mặc định hay để 15px - 25px */
-}
-
-/* Kéo chữ dịch sang trái */
-.logo-block .logo-text,
-.site-logo .logo-title {
-    margin-left: -15px !important; /* Tăng thành -15px hoặc -20px nếu muốn sát hơn nữa */
-}
